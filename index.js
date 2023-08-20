@@ -22,6 +22,6 @@ setInterval(() => {
 }, 1000);
 let mydate= new Date();
 arr=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
-date = mydate.toLocaleDateString();
-document.getElementById('date').innerHTML= date;
+day = mydate.toLocaleDateString();
+document.getElementById('date').innerHTML= day;
 document.getElementById('days').innerHTML=arr[mydate.getDay()];
